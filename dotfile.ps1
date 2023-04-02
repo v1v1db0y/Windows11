@@ -61,5 +61,8 @@ wsl --set-default-version 2
 #Install Windows Terminal Preview for Winget
 winget install Microsoft.WindowsTerminal.Preview
 
+#Install Git
+winget install Git.Git
+
 #Uninstall Taskbar wigget
 winget uninstall "windows web experience pack"
