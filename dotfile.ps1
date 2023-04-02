@@ -30,7 +30,7 @@ $Uninstall_Lists = @(
           'Microsoft.MicrosoftEdge';
 );
  
-# for でループしてみる。
+# 不要なアプリケーションを削除
 for ($i=0; $i -lt $Uninstall_Lists.Count; $i++){
   get-appxpackage $Uninstall_Lists[$i] | remove-appxpackage
 } 
